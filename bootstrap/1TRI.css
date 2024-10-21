@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container bg-light{
+    background-color: black;
+    
+}
+.nav-link{
+    background-color:  rgb(255, 255, 255);
+}
+.navbar-brand{
+    
+    color: rgb(0, 0, 0);
+    
+}
+.bem-vindo{
+    margin: 0;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-image: linear-gradient(to right, blue, red);
+    height: 350px;
+    padding-top: 100px;
+    color: white;
+    font-family: 'Abril Fatface', serif;
+    font-style: oblique;
+    font-size: x-large;
+}
+.partes{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+img{
+    
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+.part-1{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    margin-right: 30px;
+    border: 3px solid rgb(0, 0, 0);
+}
+.part-2{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    height: 40%;
+    margin-right: 30px;
+    border: 3px solid rgb(0, 0, 0);
+}
+.part-3{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    margin-right: 30px;
+    border: 3px solid rgb(0, 0, 0);
+}
+.botao-card{
+    display: flex;
+    color: aliceblue;
+    background-image: linear-gradient(to right, blue, red);
+    height: 40px;
+    border: 1px solid rgb(33, 34, 90);
+    text-align: center;
+    align-items: center;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    
+}
+nav-item{
+    background-image: linear-gradient(to right, blue, red);
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+    height: 150px;           /* Altura do rodapé */
+    background-color: #f1f1f1; /* Cor de fundo */
+    padding: 20px;
+}
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Espaçamento entre os ícones */
+}
+.social-media a img {
+    width: 50px;  /* Tamanho dos ícones */
+    height: 50px;
+}
+p {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #333;
+}
